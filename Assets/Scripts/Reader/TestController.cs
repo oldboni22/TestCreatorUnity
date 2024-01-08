@@ -112,6 +112,11 @@ public class TestController : MonoSingletone<TestController>
     }
 
 
+    public void Home()
+    {
+        SceneTransitor.Instance.OpenScene("MainScene");
+    }
+
 }
 
 

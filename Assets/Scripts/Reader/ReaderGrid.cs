@@ -116,7 +116,7 @@ public class ReaderGrid : MonoSingletone<ReaderGrid>
     {
         if (state == GridState.theme)
         {
-            // Потом
+            Application.Quit();
         }
         else
         {
